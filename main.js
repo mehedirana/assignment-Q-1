@@ -9,4 +9,5 @@ let notifications = [
 ];
 
 const check = notifications.every(test => test.read == true)
-console.log(check)
+allRead = check
+console.log(allRead)
