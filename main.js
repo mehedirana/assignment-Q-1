@@ -7,3 +7,6 @@ let notifications = [
     { message: 'Sit', read: true },
     { message: 'Amet', read: true }
 ];
+
+const check = notifications.every(checkNotifications)
+console.log(check)
