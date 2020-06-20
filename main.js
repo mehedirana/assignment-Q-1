@@ -8,6 +8,5 @@ let notifications = [
     { message: 'Amet', read: true }
 ];
 
-const check = notifications.every(test => test.read == true)
-allRead = check
+allRead = notifications.every(test => test.read == true)
 console.log(allRead)
